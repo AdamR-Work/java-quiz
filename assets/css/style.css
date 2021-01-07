@@ -1,0 +1,208 @@
+:root {
+    --purp: #5f0bfc; 
+    --pink: #a813ff;
+    --grey: #5a5a5a3a;
+    --wordsw: white;
+    --wordsb: black;
+    --welcome: 'Indie Flower', cursive;
+    --test: #ff893a;
+    --titles: #ffefff;
+    --titlesf: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    --name: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    --score: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    --time: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    --quest: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}  
+
+* {
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+
+body {
+color: #000000ef;
+font-family: sans-serif;
+font-weight: bold;
+font-size: 1.3rem;
+}
+
+/* Header and Nav START */
+header {
+padding: 10px 30px;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+top: 0;
+background:rgb(255, 255, 255);
+color: black;
+} 
+
+header nav {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 5px 10px;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+
+  
+}
+
+header h1 {
+font-size: 40px;
+color: black;
+font-family: var(--name);
+margin: 6px 20px;
+font-weight: 50px;
+justify-content: space-around;
+}
+
+header a {
+  text-decoration: none;
+  color: var(--wordsb);
+}
+
+header nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  width: 100%;
+}
+
+header nav ul li a:hover {
+  background: rgb(0, 0, 0);
+  border-radius: 5px;
+  color: white;
+  padding: 4px;
+}
+
+
+.high {
+ 
+}
+.title {
+
+}
+.restart {
+  
+}
+/* time score displays */
+.timescore {
+  display: flex;
+  justify-content: space-between;
+  margin: 5px 35px;
+
+  
+}
+.score {
+  padding: 5px;
+  color: var(--wordsb);
+  font-family: var(--name);
+ 
+}
+.time {
+  padding: 5px;
+  color: var(--wordsb);
+  font-family: var(--name);
+  
+}
+/* test */
+.test {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  /* display: none; */
+    
+}
+.answerlist {
+  
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 500px;
+  
+ 
+}
+.options-container {
+  margin: 15px 10px;
+  padding: 15px 10px;
+  align-items: center;
+  list-style-type: none;
+
+}
+#progress {
+  width: 20rem;
+  height: 3rem;
+  border: 0.2rem solid rgb(11, 223, 36);
+  border-radius: 50px;
+  overflow: hidden;
+
+}
+#progressFull {
+  height: 100%;
+  background: rgb(11, 223, 36);
+  width: 0%;
+}
+
+.start {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.correct {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+  padding: 20px;
+  display: none;
+  width: 100%;
+  height: 40px;
+
+}
+
+.question {
+  font-family: var(--welcome);
+  color: var(--test);
+  font-size: 70px;
+  text-align: center;
+  width: 650px;
+}
+.startbtn {
+  font-size: 2rem;
+  padding: 25 px;
+  text-decoration: none;
+  width: 10rem;
+  background: green;
+  border-radius: 6px;
+  
+}
+.quest {
+  font-family: var(--name);
+  color: var(--purp);
+  display: flex;
+  flex-direction: column;
+
+
+}
+
+
+
+
+
+/* Footer Start */
+footer {
+  display: flex;
+  justify-content: center;
+  margin-top: 35px;
+  font-size: 10px;
+  position: static;
+}
+/* Footer End */
+

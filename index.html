@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./assets/css/style.css">
+        <style> @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Ranchers&display=swap');</style>
+
+    </head>
+    <body>
+        <!-- nav bar -->
+        <header>
+            <nav>
+                <ul>
+                  <li>
+                    <a class="high" href="#high">High Scores</a>
+                  </li>
+                  <h1>
+                  <a href="#title" id="title">Take The Timed Java Test.</a>
+                  </h1>
+                  <li>
+                    <a class="restart" href="#restart">Restart</a>
+                  </li>
+                </ul>
+            </nav>
+        </header>
+        <!-- timer and score -->
+        <section class="timescore" id="timescore">
+            <div class="score" id="score">
+                <span>Score: </span>
+
+            </div>
+            <div class="time" id="time">
+                <span>Time: </span><span id="timer">20</span>
+           </div>
+
+        </section>
+         <!-- test -->
+        <section class="test" id="test">
+            <h2 class="question" id="question">Test Your Might</h2>
+            <div class="answerlist" id="answerlist">
+                <div class="options-container" id="A">
+                    <p class="option-letter">A.</p> 
+                    <p class="option-text" data="1"></p>
+                </div>
+                <div class="options-container" id="A">
+                    <p class="option-letter">B.</p> 
+                    <p class="option-text" data="2"></p>
+                </div>
+                <div class="options-container" id="A">
+                    <p class="option-letter">C.</p> 
+                    <p class="option-text" data="3"></p>
+                </div>
+                <div class="options-container" id="A">
+                    <p class="option-letter">D.</p> 
+                    <p class="option-text" data="4"></p>
+                </div>
+
+
+            </ul>
+        </section>
+        <div class="start" id="start">
+                <button class="startbtn" id="startbtn">Start</button>
+        <!-- progress -->
+            <div class="progress" id="progress"> 
+                <div id="progressFull"></div>
+            </div>
+         </div>          
+            
+        <!--answer  -->
+            <div class="correct" id="correct">
+                <span id="theAns">Correct! Wrong!</span>
+            </div>
+        </section>
+        
+        <!-- footer -->
+        <footer>
+            <h2>Created by AR Co.</h2>
+        </footer>
+        <script src="./assets/js/style.js" async defer></script>
+    </body>
+</html>
