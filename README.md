@@ -1,18 +1,15 @@
-# Adam's Portfolio
-
+# Adam's Timed Java Test
 ​
 **Quick Look**
 
-![Image](./assets/images/demo.jpg)
+![Image]()
 ## Description
 ​
-Website for **Adams Porfolio** is used to display information about him to potential employers.
+Website for **Adams Timed Java Test** is used to challenge people on their knowledge of javascript in a timed setting.
 ​
 ## What it consists of
-Right now Its divided into 4 sections. A "Who" section that describes him. A "What" section that has links to current projects hes working on. A "Where hes been" section that will have an image and a expandable/printable resume. An last but not least a "where" to get ahold of him by email, phone, and general location.
+The test goes through a number of questions. The user must answer the questions quickly in set amount of time. This time equals the score. If its a better score than last time it will be added to the highscores
 
-### Needs Work
-Its not yet finished. We have plans to add REAL deployed links of work. He also needs to add a REAL Bio and Picture of himself. Along with adjustment for mobile displays.
 ​
 ### Dependencies
 ​
@@ -29,12 +26,12 @@ Its not yet finished. We have plans to add REAL deployed links of work. He also 
 ​
 * Git Clone if you wish to collaborate 
 ```
-git clone https://github.com/AdamR-Work/Portfolio.git
+git clone https://github.com/AdamR-Work/????.git
 ```
 ​
 ### Site location
 ​
-* https://adamr-work.github.io/Portfolio/
+* https://adamr-work.github.io/????/
 
 
 ​
