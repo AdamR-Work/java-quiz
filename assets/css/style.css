@@ -1,32 +1,32 @@
 :root {
-    --purp: #5f0bfc; 
-    --pink: #a813ff;
-    --grey: #5a5a5a3a;
     --wordsw: white;
     --wordsb: black;
-    --welcome: 'Indie Flower', cursive;
-    --test: #ff893a;
+    --welcome: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    --test: #8f2800;
     --titles: #ffefff;
     --titlesf: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /* These at the moment are all the same style but just set it up for future options */
     --name: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     --score: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     --time: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     --quest: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }  
-
+/* General styles */
 * {
 box-sizing: border-box;
 margin: 0;
 padding: 0;
 }
-
+.option-text {
+  cursor: pointer;
+}
+/* body style */
 body {
 color: #000000ef;
 font-family: sans-serif;
 font-weight: bold;
 font-size: 1.3rem;
 }
-
 /* Header and Nav START */
 header {
 padding: 10px 30px;
@@ -37,7 +37,6 @@ top: 0;
 background:rgb(255, 255, 255);
 color: black;
 } 
-
 header nav {
   display: flex;
   flex-wrap: wrap;
@@ -45,10 +44,7 @@ header nav {
   width: 100%;
   justify-content: space-between;
   align-items: center;
-
-  
 }
-
 header h1 {
 font-size: 40px;
 color: black;
@@ -57,12 +53,10 @@ margin: 6px 20px;
 font-weight: 50px;
 justify-content: space-around;
 }
-
 header a {
   text-decoration: none;
   color: var(--wordsb);
 }
-
 header nav ul {
   display: flex;
   flex-wrap: wrap;
@@ -71,43 +65,21 @@ header nav ul {
   list-style: none;
   width: 100%;
 }
-
-header nav ul li a:hover {
-  background: rgb(0, 0, 0);
-  border-radius: 5px;
-  color: white;
-  padding: 4px;
-}
-
-
-.high {
- 
-}
-.title {
-
-}
-.restart {
-  
-}
 /* time score displays */
-.timescore {
+.time-score {
   display: flex;
   justify-content: space-between;
   margin: 5px 35px;
-
-  
 }
 .score {
   padding: 5px;
   color: var(--wordsb);
   font-family: var(--name);
- 
 }
 .time {
   padding: 5px;
   color: var(--wordsb);
   font-family: var(--name);
-  
 }
 /* test */
 .test {
@@ -116,56 +88,27 @@ header nav ul li a:hover {
   justify-content: center;
   align-items: center;
   height: 500px;
-  /* display: none; */
-    
 }
-.answerlist {
-  
+/* questions answers options */
+.answer-list {
   display: flex;
   justify-content: center;
   flex-direction: column;
   width: 500px;
-  
- 
 }
 .options-container {
-  margin: 15px 10px;
-  padding: 15px 10px;
+  margin: 15px 10px; 
   align-items: center;
   list-style-type: none;
-
 }
-.progress {
-  display: flex;
-  width: 100%;
-  align-items: center;
-  flex-direction: column;
-  margin-top: 10px;
-  
+.option-text {
+  padding: 25px;
+  background: rgb(162, 255, 162);
+  border-radius: 14px;
+  font-size: 1.2rem;
 }
-#progress {
-  width: 20rem;
-  height: 3rem;
-  border: 0.2rem solid rgb(11, 223, 36);
-  border-radius: 50px;
-  overflow: hidden;
-
-}
-#progressFull {
-  height: 100%;
-  background: rgb(11, 223, 36);
-  width: 0%;
-}
-
 .hidden {
   display: none;
-}
-
-.start {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
 }
 .correct {
   display: flex;
@@ -173,41 +116,43 @@ header nav ul li a:hover {
   justify-content: center;
   margin: 20px;
   padding: 20px;
-  display: none;
   width: 100%;
   height: 40px;
-
 }
-
+/* Question Area */
 .question {
   font-family: var(--welcome);
   color: var(--test);
-  font-size: 70px;
+  font-size: 40px;
   text-align: center;
   width: 650px;
 }
+.question {
+  cursor: pointer;
+}
+/* Start button area */
 .startbtn {
   font-size: 2rem;
   padding: 25 px;
   text-decoration: none;
   width: 10rem;
   background: green;
-  border-radius: 6px;
-  
+  border-radius: 6px;  
 }
-.quest {
-  font-family: var(--name);
-  color: var(--purp);
+.start {
   display: flex;
+  justify-content: center;
+  align-items: center;
   flex-direction: column;
-
+}
+.start span {
+  justify-content: space-around;
+  margin-bottom: 30px;
 
 }
-
-
-
-
-
+.start {
+  cursor: pointer;
+}
 /* Footer Start */
 footer {
   display: flex;
@@ -215,6 +160,7 @@ footer {
   margin-top: 35px;
   font-size: 10px;
   position: static;
+  color: rgba(128, 128, 128, 0.548);
 }
 /* Footer End */
 

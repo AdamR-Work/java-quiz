@@ -2,13 +2,13 @@
 ​
 **Quick Look**
 
-![Image]()
+![Image](./assets/images/demo.jpg)
 ## Description
 ​
 Website for **Adams Timed Java Test** is used to challenge people on their knowledge of javascript in a timed setting.
 ​
 ## What it consists of
-The test goes through a number of questions. The user must answer the questions quickly in set amount of time. This time equals the score. If its a better score than last time it will be added to the highscores
+The test goes through a number of questions. The user must answer the questions quickly in set amount of time. This time equals the score. If they get a question wrong it will deduct time. If its a better score than last time it will be added to the highscores.
 
 ​
 ### Dependencies
@@ -26,12 +26,12 @@ The test goes through a number of questions. The user must answer the questions 
 ​
 * Git Clone if you wish to collaborate 
 ```
-git clone https://github.com/AdamR-Work/????.git
+git clone https://github.com/AdamR-Work/java-quiz.git
 ```
 ​
 ### Site location
 ​
-* https://adamr-work.github.io/????/
+* https://adamr-work.github.io/java-quiz/
 
 
 ​

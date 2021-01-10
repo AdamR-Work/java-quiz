@@ -16,71 +16,65 @@
             <nav>
                 <ul>
                   <li>
-                    <a class="high" href="#high">High Scores</a>
+                    <span id="high" class="high" >High Score:</span>
+                    <span id="high-score"></span>
+                    <span id="high-score-name"></span>
                   </li>
                   <h1>
-                  <a href="#title" id="title">Take The Timed Java Test.</a>
+                  <span id="title" class="title" >Take The Timed Java Test.</a>
                   </h1>
                   <li>
-                    <a class="restart" href="#restart">Restart</a>
+                    <span id="restart" class="restart" >Restart</span>
                   </li>
                 </ul>
             </nav>
         </header>
         <!-- timer and score -->
-        <section class="timescore" id="timescore">
-            <div class="score" id="score">
-                <span>Score: </span>
+        <section class="time-score" id="time-score">
+            <div class="scores">
+                <span>Score: </span><span id="score"></span>
 
             </div>
             <div class="time" id="time">
-                <span>Time: </span><span id="timer">20</span>
+                <span>Time: </span><span id="timer"></span>
            </div>
 
         </section>
          <!-- test -->
         <section class="hidden" id="test">
             <h2 class="question" id="question">Test Your Might</h2>
-            <div class="answerlist" id="answerlist">
-                <div class="options-container" id="A">
-                    <p class="option-letter">A.</p> 
-                    <p class="option-text" data="1"></p>
+            <div class="answer-list" id="answer-list">
+                <div class="options-container" id="A">                  
+                    <p class="option-text" ></p>
                 </div>
-                <div class="options-container" id="A">
-                    <p class="option-letter">B.</p> 
-                    <p class="option-text" data="2"></p>
+                <div class="options-container" id="A">                   
+                    <p class="option-text" ></p>
                 </div>
-                <div class="options-container" id="A">
-                    <p class="option-letter">C.</p> 
-                    <p class="option-text" data="3"></p>
+                <div class="options-container" id="A">                 
+                    <p class="option-text" ></p>
                 </div>
-                <div class="options-container" id="A">
-                    <p class="option-letter">D.</p> 
-                    <p class="option-text" data="4"></p>
+                <div class="options-container" id="A">                
+                    <p class="option-text" ></p>
                 </div>
 
 
             </ul>
         </section>
         <div class="start" id="start">
+                <span>Answer the Questions as fast as you can.</span>
+                <span>Wrong answers will deduct time from your quiz.</span>
                 <button class="startbtn" id="startbtn">Start</button>
             </div> 
-        <!-- progress -->
-        <section class="progress">
-            <div  id="progress"> 
-                <div id="progressFull"></div>
-            </div>
-                  
-            </section>
+        
         <!--answer  -->
             <div class="correct" id="correct">
-                <span id="theAns">Correct! Wrong!</span>
+                <span id="the-answer"></span>
             </div>
               
         <!-- footer -->
         <footer>
             <h2>Created by AR Co.</h2>
         </footer>
-        <script src="./assets/js/style.js" async defer></script>
+        <script src="./assets/js/game.js" async defer></script>
     </body>
 </html>
