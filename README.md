@@ -49,7 +49,7 @@ If you have any questions or concerns contact me at adamrfiles@gmail.com
 *
 * 0.1
     * Initial Version
-    * See [Commits history](https://github.com/AdamR-Work/Portfolio/commits/master)
+    * See [Commits history](https://github.com/AdamR-Work/java-quiz/commits/master)
 ​
 ## License
 ​
